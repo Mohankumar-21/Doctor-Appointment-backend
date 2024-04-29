@@ -1,0 +1,22 @@
+/* Morgan
+ Morgan is a popular middleware for Node.js applications. It is used for logging HTTP requests, making it easier to track and understand incoming requests to your server.
+
+The concurrently package in npm is often used in development environments to run multiple npm scripts concurrently. It's particularly useful when you need to start multiple processes simultaneously, such as running a client-side application and a server-side application concurrently
+
+
+
+The term "genSalt" is short for "generate salt." In the context of password hashing and security, generating a salt is an important step to enhance the security of stored passwords.
+
+A salt is a random piece of data that is generated uniquely for each password. It is then combined with the password before hashing. The purpose of a salt is to prevent attackers from using precomputed tables (rainbow tables) to crack passwords. Salting adds a random factor to each password, making it computationally infeasible to precompute hashes for all possible passwords
+
+
+JSON Web Tokens (JWT) are a compact, URL-safe means of representing claims between two parties. They are often used for authentication and authorization purposes in web development and API (Application Programming Interface) security. JWTs are encoded as JSON objects, and they consist of three parts: a header, a payload, and a signature.
+
+
+In the context of Redux and React applications, the dispatch function is a fundamental part of the Redux architecture. It's used to send actions to the Redux store, which then triggers a state change. Let's explore why dispatch is essential:
+
+
+
+
+
+*/
