@@ -18,18 +18,15 @@ const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
 
-// Static files
-app.use(express.static(path.join(__dirname, 'client/build')));
+
+
 
 // API routes
 app.use('/api/v1/user', require('./routes/userRoutes'));
 app.use('/api/v1/admin', require('./routes/adminRoutes'));
 app.use('/api/v1/doctor', require('./routes/doctorRoutes'));
 
-// Wildcard route for serving index.html
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'client/build/index.html'));
-  });
+
   
 
 // Listen to the port
